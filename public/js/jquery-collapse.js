@@ -13,7 +13,7 @@ $(document).ready(function () {
 
   var $siblings1 = $('a.mod-link').parent().parent().siblings();
 
-  $siblings1.slideUp();
+  $siblings1.hide();
 
   $('#nav-list').on('click', function (event) {
     var target = event.target,

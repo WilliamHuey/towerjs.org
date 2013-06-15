@@ -1,3 +1,5 @@
+
+
 #tower-intro {
   h1 {
     text-align: center;
@@ -8,6 +10,7 @@
 }
 
 section#content {
+  
   position: relative;
   padding-top: 70px;
   width: 80%;
@@ -26,6 +29,29 @@ section#content {
     width: 18%;
   }
 
+  #api {
+    h4 {
+      font-size: 155%;
+    }
+    h5 {
+      font-size: 120%;      
+    }
+    h6 {
+      font-size: 110%;
+    }
+  }
+
+  .class-method-h {
+    margin-bottom: 1.8em;
+    margin-top: 1.5em;  
+  }
+
+  .module-content {
+    .class-method {
+      padding-left: 3%;
+    }
+  }
+
   .module-items {
     padding-left: 8%;
   }
@@ -40,13 +66,25 @@ section#content {
   }
 
   div.module-content {
-    padding-left: 3%;
+    padding-left: 3%;  
   }
 
   section.property,
   section.method {
     padding: 1.5em 1.5em 2.5em 1.5em;
     border-bottom: 1px solid $fgcolor;
+
+    h4 {
+      margin-bottom: 1.2em;
+    }
+
+    h5 {
+      margin-bottom: 1em;
+    }
+  }
+
+  section.class {
+    padding: 1.5em 1.5em 0em 1.5em;
   }
 
   section.property.last-section,
@@ -56,6 +94,16 @@ section#content {
 
   .module {
     margin-bottom: 3em;
+  }
+
+  .class-method {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid $fgcolor;
+    .class-method-h {
+
+    }
   }
 
   .nav.nav-list {
