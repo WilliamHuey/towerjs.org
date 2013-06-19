@@ -1,0 +1,79 @@
+
+
+pre, code {
+font-family: "Menlo", monospace;
+line-height: normal;
+}
+
+pre {
+  border: none;
+  overflow-x: auto;
+  border-left: solid 2px #CCC;
+  padding-left: 18px;
+  margin: 2em 0 2em -20px;
+  background: #fff;
+  border-radius: 0;
+  display: inline-block;
+}
+
+code {
+  font-size: 16px;
+  display: block;
+}
+
+#ct {
+  display: inline-block;
+  color: #333;
+  width: 70%;
+
+  p {
+    font-size: 19px;
+    line-height: 2;
+    margin:40px 0;
+  }
+
+  h2 {
+    display: block;
+    margin-top: 30px;
+    line-height: 10px;
+  }
+
+}
+
+
+.html .value,
+.javascript .string,
+.javascript .regexp {
+  color: #e6550d;
+}
+
+.html .tag,
+.css .tag,
+.javascript .keyword {
+  color: #419edd;
+}
+
+aside,
+.comment {
+  color: #636363;
+}
+
+.html .doctype,
+.javascript .number {
+  color: #28bfa2;
+}
+
+.html .attribute,
+.css .attribute,
+.javascript .class,
+.javascript .special {
+  color: #28bfa2;
+}
+
+.js .keyword, .javascript .keyword {
+  color: #419edd;
+}
+
+.js .string, .javascript .string {
+  color: #28bfa2;
+}
